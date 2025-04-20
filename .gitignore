@@ -1,0 +1,22 @@
+# Node modules y builds
+**/node_modules/
+**/dist/
+
+# Archivos de entorno
+**/.env
+**/.env.local
+
+# Prisma
+**/prisma/dev.db
+**/prisma/migrations/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
